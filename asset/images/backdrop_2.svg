@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150"
+   height="200"
+   viewBox="0 0 39.6875 52.916668"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="backdrop_2.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect817"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath821">
+      <rect
+         style="opacity:1;fill:#241c1c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.08036643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:6.21640968;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect823"
+         width="210"
+         height="297"
+         x="13.60714"
+         y="1.5119047"
+         d="m 13.60714,1.5119047 h 210 V 298.5119 h -210 z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="142.07134"
+     inkscape:cy="79.679755"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-page="true"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-244.0833)">
+    <path
+       style="fill:#ff8080;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -11.969089,56.103024 C -1.259656,35.440477 13.355423,35.440477 30.679018,45.456664 48.002613,55.47285 68.035714,75.505952 94.87218,75.253871 c 26.83646,-0.25208 60.47634,-20.788786 91.53323,-31.057043 31.05689,-10.268257 59.53136,-10.268257 72.63443,-0.315121 13.10308,9.953136 10.8352,29.860066 9.95324,77.107643 -0.88195,47.24758 -0.37799,121.83379 -10.60903,161.77338 -10.23104,39.93958 -31.19722,45.23123 -77.31034,51.15289 -46.11311,5.92165 -117.372851,12.47322 -157.790769,-16.50512 -40.417918,-28.97835 -49.993291,-93.48612 -51.37918,-146.40272 -1.385888,-52.91661 5.417717,-94.242208 16.12715,-114.904756 z"
+       id="path815"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect817"
+       inkscape:original-d="m -15.875,35.440477 c 14.615344,-2.65e-4 29.230423,-2.65e-4 43.845239,0 20.032638,20.032109 40.06574,40.06521 60.098212,60.098211 C 121.7086,75.001717 155.34848,54.465013 188.98809,33.928571 c 28.47421,-2.65e-4 56.94868,-2.65e-4 85.42263,0 -2.26758,19.906297 -4.53546,39.813227 -6.80357,59.720238 0.50424,74.588121 1.00819,149.174331 1.51191,223.761891 -20.9661,5.29143 -41.93228,10.58308 -62.89882,15.87501 C 134.96058,339.83703 63.700837,346.3886 -7.559523,352.94047 -17.13468,288.43211 -26.710053,223.92434 -36.285715,159.41667 -29.481912,118.09121 -22.678307,76.765607 -15.875,35.440477 Z"
+       transform="matrix(0.18925086,0,0,0.16924808,-2.5601942,246.4774)"
+       clip-path="url(#clipPath821)"
+       sodipodi:nodetypes="ccccccccccc" />
+  </g>
+</svg>
