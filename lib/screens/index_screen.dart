@@ -1,10 +1,7 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dolen_teros/themes/color_library.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'dart:ui' as ui;
 
 class IndexScreen extends StatefulWidget {
   @override
@@ -14,30 +11,27 @@ class IndexScreen extends StatefulWidget {
 class _IndexScreenState extends State<IndexScreen> {
   @override
   Widget build(BuildContext context) {
-
     Size screenSize = MediaQuery.of(context).size;
 
     buildTitleBar() {
       return Container(
-        width: screenSize.width,
-        padding: EdgeInsets.all(20),
-        child: Text(
-          'Dolen Teros',
-          style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 35,
-              color: ColorLibrary.dark,
-              letterSpacing: 5,
-              shadows: [
-                Shadow(
-                  blurRadius: 10.0,
-                  color: ColorLibrary.dark.withOpacity(0.5),
-                  offset: Offset(4, 4),
-                ),
-              ]
-          ),
-        )
-      );
+          width: screenSize.width,
+          padding: EdgeInsets.all(20),
+          child: Text(
+            'Dolen Teroooss',
+            style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 35,
+                color: ColorLibrary.dark,
+                letterSpacing: 5,
+                shadows: [
+                  Shadow(
+                    blurRadius: 7.0,
+                    color: ColorLibrary.dark.withOpacity(0.3),
+                    offset: Offset(2, 2),
+                  ),
+                ]),
+          ));
     }
 
     buildHeader() {
@@ -50,17 +44,15 @@ class _IndexScreenState extends State<IndexScreen> {
               child: Container(
                 padding: EdgeInsets.symmetric(horizontal: 10),
                 decoration: BoxDecoration(
-                  color: ColorLibrary.whiteWash,
-                  borderRadius: BorderRadius.circular(30),
-                  boxShadow: [
-                    BoxShadow(
-                        color: Colors.black38.withOpacity(0.1),
-                        blurRadius: 5,
-                        spreadRadius: 0,
-                        offset: Offset(0, 4)
-                    )
-                  ]
-                ),
+                    color: ColorLibrary.whiteWash,
+                    borderRadius: BorderRadius.circular(30),
+                    boxShadow: [
+                      BoxShadow(
+                          color: Colors.black38.withOpacity(0.1),
+                          blurRadius: 5,
+                          spreadRadius: 0,
+                          offset: Offset(0, 4))
+                    ]),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   children: [
@@ -70,8 +62,7 @@ class _IndexScreenState extends State<IndexScreen> {
                         decoration: InputDecoration(
                             hintText: 'Lake Laogai ...',
                             border: InputBorder.none,
-                            contentPadding: EdgeInsets.fromLTRB(20, 0, 0, 0)
-                        ),
+                            contentPadding: EdgeInsets.fromLTRB(20, 0, 0, 0)),
                       ),
                     ),
                     Expanded(
@@ -90,21 +81,19 @@ class _IndexScreenState extends State<IndexScreen> {
               child: Container(
                 height: 50,
                 decoration: BoxDecoration(
-                  color: ColorLibrary.ambrosiaCake,
-                  borderRadius: BorderRadius.circular(50),
-                  image: DecorationImage(
-                    image: NetworkImage('https://picsum.photos/id/200/400/200'),
-                    fit: BoxFit.cover
-                  ),
-                  boxShadow: [
-                    BoxShadow(
-                        color: Colors.black38.withOpacity(0.1),
-                        blurRadius: 5,
-                        spreadRadius: 0,
-                        offset: Offset(0, 4)
-                    )
-                  ]
-                ),
+                    color: ColorLibrary.ambrosiaCake,
+                    borderRadius: BorderRadius.circular(50),
+                    image: DecorationImage(
+                        image: NetworkImage(
+                            'https://picsum.photos/id/200/400/200'),
+                        fit: BoxFit.cover),
+                    boxShadow: [
+                      BoxShadow(
+                          color: Colors.black38.withOpacity(0.1),
+                          blurRadius: 5,
+                          spreadRadius: 0,
+                          offset: Offset(0, 4))
+                    ]),
               ),
             )
           ],
@@ -126,18 +115,14 @@ class _IndexScreenState extends State<IndexScreen> {
                   color: ColorLibrary.whiteWash,
                   borderRadius: BorderRadius.circular(30),
                   image: DecorationImage(
-                      image: NetworkImage(imageURL),
-                      fit: BoxFit.cover
-                  ),
+                      image: NetworkImage(imageURL), fit: BoxFit.cover),
                   boxShadow: [
                     BoxShadow(
                         color: Colors.black38.withOpacity(0.3),
                         blurRadius: 15,
                         spreadRadius: 0,
-                        offset: Offset(5, 9)
-                    )
-                  ]
-              ),
+                        offset: Offset(5, 9))
+                  ]),
               child: Container(
                 child: Stack(
                   overflow: Overflow.visible,
@@ -147,11 +132,8 @@ class _IndexScreenState extends State<IndexScreen> {
                       right: 10,
                       child: FloatingActionButton(
                         mini: true,
-                        child: FaIcon(
-                            FontAwesomeIcons.heart,
-                            size: 17,
-                            color: ColorLibrary.cherryBlossomPink
-                        ),
+                        child: FaIcon(FontAwesomeIcons.heart,
+                            size: 17, color: ColorLibrary.cherryBlossomPink),
                         elevation: 8,
                         backgroundColor: ColorLibrary.whiteWash,
                       ),
@@ -165,15 +147,11 @@ class _IndexScreenState extends State<IndexScreen> {
                         labelStyle: TextStyle(
                             fontSize: 13,
                             color: ColorLibrary.dark.withAlpha(200),
-                            fontWeight: FontWeight.bold
-                        ),
+                            fontWeight: FontWeight.bold),
                         labelPadding: EdgeInsets.only(right: 10),
                         backgroundColor: ColorLibrary.whiteWash,
-                        avatar: FaIcon(
-                            FontAwesomeIcons.star,
-                            size: 10,
-                            color: ColorLibrary.yellow
-                        ),
+                        avatar: FaIcon(FontAwesomeIcons.star,
+                            size: 10, color: ColorLibrary.yellow),
                         label: Text('4k'),
                       ),
                     ),
@@ -190,10 +168,9 @@ class _IndexScreenState extends State<IndexScreen> {
                   Text(
                     'Lorem Ipsum Dolor Sit',
                     style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
-                      color: ColorLibrary.dark
-                    ),
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20,
+                        color: ColorLibrary.dark),
                   ),
                   SizedBox(height: 5),
                   Padding(
@@ -204,8 +181,7 @@ class _IndexScreenState extends State<IndexScreen> {
                           fontSize: 10,
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1.2,
-                          color: ColorLibrary.dark.withAlpha(180)
-                      ),
+                          color: ColorLibrary.dark.withAlpha(180)),
                     ),
                   )
                 ],
@@ -238,25 +214,30 @@ class _IndexScreenState extends State<IndexScreen> {
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 26,
-                          color: ColorLibrary.dark
-                      ),
+                          color: ColorLibrary.dark),
                     ),
                   ],
                 ),
               ),
               Row(
                 children: [
-                  buildDestinationItem('https://placeimg.com/480/720/nature/231'),
+                  buildDestinationItem(
+                      'https://placeimg.com/480/720/nature/231'),
                   SizedBox(width: 40),
-                  buildDestinationItem('https://placeimg.com/480/720/nature/1289'),
+                  buildDestinationItem(
+                      'https://placeimg.com/480/720/nature/1289'),
                   SizedBox(width: 40),
-                  buildDestinationItem('https://placeimg.com/480/720/nature/3252'),
+                  buildDestinationItem(
+                      'https://placeimg.com/480/720/nature/3252'),
                   SizedBox(width: 40),
-                  buildDestinationItem('https://placeimg.com/480/720/nature/1243'),
+                  buildDestinationItem(
+                      'https://placeimg.com/480/720/nature/1243'),
                   SizedBox(width: 40),
-                  buildDestinationItem('https://placeimg.com/480/720/nature/2188'),
+                  buildDestinationItem(
+                      'https://placeimg.com/480/720/nature/2188'),
                   SizedBox(width: 40),
-                  buildDestinationItem('https://placeimg.com/480/720/nature/3222'),
+                  buildDestinationItem(
+                      'https://placeimg.com/480/720/nature/3222'),
                   SizedBox(width: 20),
                 ],
               )
@@ -291,7 +272,5 @@ class _IndexScreenState extends State<IndexScreen> {
     }
 
     return buildScreen();
-
   }
-
 }
